@@ -1,0 +1,15 @@
+.DotsSliderArrow img {
+  width: 50px;
+}
+.right {
+  position: absolute;
+  top: 50%;
+}
+.left {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+}
+.active {
+  background-color: white;
+}

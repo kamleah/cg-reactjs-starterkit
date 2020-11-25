@@ -1,0 +1,35 @@
+.productCard {
+  border: 2px solid black;
+  /* padding: 20px; */
+  border-radius: 10px;
+  height: auto;
+  width: 250px;
+  cursor: pointer;
+}
+
+.productImg img {
+  height: 300px;
+  width: 225px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.productPrice {
+  display: flex;
+  justify-content: center;
+}
+.productCard,
+.productImg,
+.productStock > h5,
+.productDetails,
+.productPrice {
+  padding: 1px;
+}
+.productAdd {
+  padding: 10px;
+}

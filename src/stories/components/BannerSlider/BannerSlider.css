@@ -1,0 +1,67 @@
+.BannerTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+.MainBanner {
+  background-color: aliceblue;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  position: relative;
+  min-width: 100%;
+}
+.Bannerapp {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: auto;
+  padding: 25px;
+  width: 100%;
+  transition: 0.5s;
+}
+.BannerHeading {
+  text-align: center;
+}
+.BannerSlider {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.BannerSliderImg {
+  width: 100%;
+}
+.BannerSliderText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+  width: 100%;
+}
+.BannerSliderText h3 {
+  font-size: 22px;
+}
+.Bannerparagraph p {
+  font-size: 20px;
+}
+.BannerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .BannerSlider {
+    display: grid;
+    grid-gap: 20px;
+  }
+  .BannerHeadingsm {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}

@@ -1,0 +1,25 @@
+.SearchButton {
+  padding: 10px;
+  width: 130px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.SearchButton:focus {
+  outline: none;
+}
+.SearchButton:hover {
+  border: 1px solid crimson;
+  background: repeating-radial-gradient(yellow, transparent 50px);
+}
+.Search {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.SearchButton p {
+  margin-bottom: 0;
+}

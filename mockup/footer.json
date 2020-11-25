@@ -1,0 +1,46 @@
+[
+  {
+    background: {
+      imgUrl: "abc.jpg",
+      opacity: 0.2,
+      color: " #fff",
+      
+    },
+      footerItems: [
+      {
+        name: "Prepaid",
+        url: "abc.com",
+        
+        subFooterItems: [
+          {
+            name: "Plan1",
+            url: "abc.com"
+          },
+          {
+            name: "Plan2",
+            url: "abc.com"
+          }
+        ]
+      },
+      {
+        name: "Postpaid",
+        url: "abc.com",
+        subFooterItems: [
+          {
+            name: "Plan1",
+            url: "abc.com"
+          },
+          {
+            name: "Plan2",
+            url: "abc.com"
+          },{
+            imageURL : "image.jpg",
+            redirectinUrl: "abc.com"
+          }
+        ]
+      },
+     
+      
+    ],
+  }
+]

@@ -1,0 +1,32 @@
+.layer21 {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 50px;
+  row-gap: 15px;
+}
+.layer21 li {
+  list-style: none;
+}
+.layer21 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.layer21 ul:hover {
+  border-bottom: 2px solid white;
+}
+.layer21 {
+  margin-top: 40px;
+}
+@media screen and (max-width: 568px) {
+  .layer21 {
+    margin-top: 0;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 0;
+    column-gap: 0;
+    grid-row-gap: 0;
+    row-gap: 0;
+  }
+}

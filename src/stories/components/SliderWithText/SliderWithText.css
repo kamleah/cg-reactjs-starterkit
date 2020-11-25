@@ -1,0 +1,80 @@
+.SliderWithText {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.slideWithText {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 100%;
+  height: 500px;
+  transition: 0.5s;
+}
+.slideWithText1 {
+  display: flex;
+}
+.TextTwo {
+  position: absolute;
+  top: 85%;
+  color: black;
+}
+.slideWithText img {
+  width: 100%;
+}
+.TextOne {
+  position: absolute;
+  top: 65%;
+  color: black;
+  font-size: 52px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.TextOne p {
+  padding: 10px;
+  border-radius: 10px;
+}
+.TextTwo p {
+  padding: 10px;
+  border-radius: 10px;
+}
+#goLeft {
+  position: absolute;
+  top: 271px;
+  left: 10px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid darkblue;
+  height: 60px;
+  width: 60px;
+}
+#goRight {
+  position: absolute;
+  top: 245px;
+  right: 40px;
+  transform: translateX(50%);
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid darkblue;
+  height: 60px;
+  width: 60px;
+}
+#goLeft,
+#goRight p {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .TextOne {
+    font-size: 25px;
+  }
+}

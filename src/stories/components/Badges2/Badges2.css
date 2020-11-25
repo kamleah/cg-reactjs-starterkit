@@ -1,0 +1,10 @@
+.rectangularBadges {
+  padding: 5px;
+  width: 40px;
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin: 7px;
+}

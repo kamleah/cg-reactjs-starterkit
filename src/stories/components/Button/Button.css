@@ -1,0 +1,16 @@
+.buyNow {
+  padding: 12px 30px;
+  width: auto;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+.buyNow:focus {
+  outline: none;
+}
+.buyNow:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}

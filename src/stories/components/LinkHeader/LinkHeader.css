@@ -1,0 +1,30 @@
+.linkHeader {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+.linkHeader a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.linkHeader a:hover {
+  border-bottom: 2px solid red;
+  background: lightseagreen;
+  transition: 0.5s linear;
+  color: royalblue;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .linkHeader {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+}

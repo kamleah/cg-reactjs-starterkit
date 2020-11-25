@@ -1,0 +1,22 @@
+[
+  {
+    "src": "https://cdn.pixabay.com/photo/2020/09/21/09/33/rose-5589514__340.jpg",
+    "title": "Product 01",
+    "description": "Tutorial of Slide Show"
+  },
+  {
+    "src": "https://cdn.pixabay.com/photo/2020/09/21/21/24/landscape-5591270__340.jpg",
+    "title": "Product 02",
+    "description": "Tutorial of Slide Show"
+  },
+  {
+    "src": "https://cdn.pixabay.com/photo/2020/09/18/13/05/lynx-5581792__340.jpg",
+    "title": "Product 01",
+    "description": "Tutorial of Slide Show"
+  },
+  {
+    "src": "https://cdn.pixabay.com/photo/2020/09/24/16/12/roosters-5599141__340.jpg",
+    "title": "Product 02",
+    "description": "Tutorial of Slide Show"
+  }
+]

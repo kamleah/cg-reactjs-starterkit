@@ -1,0 +1,71 @@
+.cards {
+  border: 2px solid #c5bcbcad;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+.card-top {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 10px;
+}
+.card-top img {
+  border-radius: 15px;
+  background-color: royalblue;
+  width: 157px;
+  height: 218px;
+}
+.card-badget {
+  background: red;
+  height: 40px;
+  width: 110px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: white;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-details h4 {
+  font-size: 13px;
+}
+.card-details p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.card-bottom {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+.card-botton-left,
+.card-botton-right,
+h3,
+h4 {
+  font-size: 13px;
+}
+.card-botton-left,
+.card-botton-right p {
+  font-size: 12px;
+}
+.card-botton-left {
+  border-right: 2px solid #c5bcbcad;
+  padding: 10px;
+}
+.card-botton-right {
+  padding: 10px;
+  margin-left: -15px;
+}
+.buyNow {
+  height: 35px;
+  width: 126px;
+  margin: 25px auto;
+  background-color: blue;
+  outline: blue;
+  border: blue;
+  color: white;
+  border-radius: 20px;
+}

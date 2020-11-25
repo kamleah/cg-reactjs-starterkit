@@ -1,0 +1,25 @@
+
+  
+  .card-header h3{
+    color: white;
+    }
+    .loginBg{
+        background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+    }
+    .colorWhite{
+        color: white;
+        position: absolute;
+        top: 50%;
+        margin: 0;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    

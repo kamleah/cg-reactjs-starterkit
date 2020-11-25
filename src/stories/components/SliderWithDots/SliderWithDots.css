@@ -1,0 +1,27 @@
+.DotsSlider {
+  position: relative;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.SliderContent {
+  height: 100%;
+  width: auto;
+  display: flex;
+  background-color: red;
+  overflow: hidden;
+}
+.DotsSlide {
+  height: 100;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.left {
+  position: absolute;
+  top: 50%;
+}
+.active {
+  background-color: white;
+}
